@@ -20,3 +20,15 @@ how they are feeling today and responds with a custom message based on the mood 
 return a corresponding custom message.
 
 '''
+
+# mood_responses.py
+
+# def mood_response(mood):
+
+# Implement your response logic here
+
+
+# main.py
+import mood_responses
+mood = input("How are you feeling today? reply --> happy, sad, or excited. ")
+print(mood_responses.mood_response(mood))

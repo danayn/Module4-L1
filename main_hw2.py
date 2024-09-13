@@ -31,3 +31,18 @@ If you have a function, make sure the function is called and runs.
 The goal of this note is to ensure that all code in your Python file runs smoothly and that is has been tested.
 
 '''
+# main.py
+# Import text_utils using an alias and utilize its functions
+import text_utils as tx
+
+name = "Daniel"
+reverse = tx.reverse_string(name)
+print(reverse)
+print()
+
+capital = tx.capitalize_string(name)
+print(capital)
+
+
+
+
